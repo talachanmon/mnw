@@ -1,0 +1,61 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Mon keyboard layout
+//
+// Layout design: Talachan
+// Implementation: Andj C
+//
+// v 1.0 2014-09-04
+
+partial default alphanumeric_keys
+xkb_symbols "basic"
+{
+	name[Group1] = "Mon";
+	key <AB01> { [          U1012,          U103F                                 ] }; // ဒ ဿ 
+	key <AB02> { [          U1001,          U1023                                 ] }; // ခ ဣ 
+	key <AB03> { [          U1005,          U1020                                 ] }; // စ ဠ 
+	key <AB04> { [          U100D,          U1003                                 ] }; // ဍ ဃ 
+	key <AB05> { [          U101F,          U1028                                 ] }; // ဟ ဨ 
+	key <AB06> { [          U101D,          U105D                                 ] }; // ဝ ၝ 
+	key <AB07> { [          U1017,          U100E                                 ] }; // ဗ ဎ 
+	key <AB08> { [          U100F,          U1027                                 ] }; // ဏ ဧ 
+	key <AB09> { [          U104A,          U1007                                 ] }; // ၊ ဇ 
+	key <AB10> { [          U104B,       question                                 ] }; // ။ ? 
+	key <AC01> { [          U103D,          U102B                                 ] }; // ွ ါ 
+	key <AC02> { [          U102D,          U1030                                 ] }; // ိ ူ 
+	key <AC03> { [          U1036,          U102E                                 ] }; // ံ ီ 
+	key <AC04> { [          U1039,          U1035                                 ] }; // ္ ဵ 
+	key <AC05> { [          U102F,          U103E                                 ] }; // ု ှ 
+	key <AC06> { [          U103A,          U1038                                 ] }; // ် း 
+	key <AC07> { [          U102C,          U1060                                 ] }; // ာ ၠ 
+	key <AC08> { [          U1031,          U105E                                 ] }; // ေ ၞ 
+	key <AC09> { [          U1032,          U105F                                 ] }; // ဲ ၟ 
+	key <AC10> { [          U101C,          U103C                                 ] }; // လ ြ 
+	key <AC11> { [     quoteright,       quotedbl                                 ] }; // ' " 
+	key <AD01> { [          U101E,          U100B                                 ] }; // သ ဋ 
+	key <AD02> { [          U101B,          U1025                                 ] }; // ရ ဥ 
+	key <AD03> { [          U1019,          U1006                                 ] }; // မ ဆ 
+	key <AD04> { [          U1015,          U1013                                 ] }; // ပ ဓ 
+	key <AD05> { [          U1010,          U1016                                 ] }; // တ ဖ 
+	key <AD06> { [          U1000,          U101A                                 ] }; // က ယ 
+	key <AD07> { [          U105A,          U105C                                 ] }; // ၚ ၜ 
+	key <AD08> { [          U1014,          U1018                                 ] }; // န ဘ 
+	key <AD09> { [          U1002,          U1011                                 ] }; // ဂ ထ 
+	key <AD10> { [          U1021,          U100C                                 ] }; // အ ဌ 
+	key <AD11> { [          U100A,          U103B                                 ] }; // ည ျ 
+	key <AD12> { [          U1001,          U1033                                 ] }; // ခ ဳ 
+	key <AE01> { [          U1041,             at                                 ] }; // ၁ @ 
+	key <AE02> { [          U1042,     numbersign                                 ] }; // ၂ # 
+	key <AE03> { [          U1043,         dollar                                 ] }; // ၃ $ 
+	key <AE04> { [          U1044,        percent                                 ] }; // ၄ % 
+	key <AE05> { [          U1045,          U105B                                 ] }; // ၅ ၛ 
+	key <AE06> { [          U1046,          U1029                                 ] }; // ၆ ဩ 
+	key <AE07> { [          U1047,      ampersand                                 ] }; // ၇ & 
+	key <AE08> { [          U1048,          U1034                                 ] }; // ၈ ဴ 
+	key <AE09> { [          U1049, Armenian_parenleft                                 ] }; // ၉ ( 
+	key <AE10> { [          U1040, Armenian_parenright                                 ] }; // ၀ ) 
+	key <AE11> { [    KP_Subtract,       underbar                                 ] }; // - _ 
+	key <AE12> { [       KP_Equal,         KP_Add                                 ] }; // = + 
+	key <BKSL> { [      KP_Divide,         exclam                                 ] }; // / ! 
+};
+
